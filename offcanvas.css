@@ -1,0 +1,170 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding-top: 56px;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    right: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color:  #672683;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: right, visibility;
+  }
+  .offcanvas-collapse.open {
+    right: 0;
+    visibility: visible;
+  }
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-green { 
+  background-color: rgba(30,238,44,0.98); 
+}
+
+.bg-red { 
+  background-color: red; 
+}
+
+.bg-orange { 
+  background-color: #fb9f26; 
+}
+
+.bg-purple { 
+  background-color: #672683;
+}
+
+
+p {
+  font-family: Montserrat;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#top-menu li a {
+  color: #fff;
+}
+
+p.posicao-ranking{
+  color: #fb9f26;
+  font-size: 24px;
+}
+
+p.nome-ranking{
+  color: #672683;
+  font-size: 20px;
+}
+
+p.nome-saldo{
+  color: #672683;
+  font-size: 20px;
+  float: left;
+}
+
+p.saldo-pontos{
+  color: #fb9f26;
+  font-size: 20px;
+}
+
+p.header-grid-1{
+  color: #672683;
+  font-size: 12px;
+}
+
+div.square{
+  height: 26%;
+  min-height: 70px;
+  padding-top: 18%;
+}
+
+p.square-text{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-purple{
+  color: #672683;
+}
+
+.text-orange{
+  color: #fb9f26;
+}
+
+p.square-text-sm{
+  font-size: 10px;
+}
+
+p.etapa{
+  font-size: 36px;
+}
+
+p.saldo-pontos-b{
+  color: #fb9f26;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+div.square-perqunta{
+  padding: 1%;
+}
